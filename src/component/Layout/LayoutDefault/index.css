@@ -1,0 +1,11 @@
+.contentlayout {
+  flex: 1;
+  height: 100vh;
+  
+}
+.splitlayout {
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden;
+}
+

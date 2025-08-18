@@ -1,0 +1,58 @@
+.discontainer {
+  margin: 30px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+section {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+}
+
+h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.disBlock {
+  display: block;
+  border-radius: 3px;
+  background-color: antiquewhite;
+}
+
+.disFlex {
+  display:flex;
+  background-color: rgb(146, 121, 88);
+  gap: 10px;
+  border-radius: 3px;
+}
+
+
+.inlinetext {
+  position: static;
+
+  display: inline;
+  color: white;
+  background-color: rgb(146, 156, 87);
+}
+
+.inlineblock {
+  display: inline-block;
+  color: white;
+  background-color: rgb(100, 128, 72);
+}
+.Gridtext{
+    display: grid;
+    color: white;
+    background-color: rgb(90, 29, 29);;
+}
