@@ -1,0 +1,48 @@
+.option_select {
+  color: black;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  margin: 200px;
+  flex-direction: column;
+}
+
+.opt_container {
+  display: flex;
+  height: 40px;
+}
+
+.sel_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gender_label {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gender {
+  transform: scale(1.4);
+}
+
+div select option {
+  color: black;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

@@ -6,7 +6,7 @@ function Sidebar() {
     <div className="size">
       <ul>
         <li>
-          <Link to="/margin">Margin</Link>
+          <Link to="/">Margin</Link>
         </li>
         <li>
           <Link to="/padding">Padding</Link>
@@ -16,6 +16,15 @@ function Sidebar() {
         </li>
         <li>
           <Link to="/position">Position</Link>
+        </li>
+        <li>
+          <Link to="/button">Button</Link>
+        </li>
+        <li>
+          <Link to="/selection">Selection</Link>
+        </li>
+        <li>
+          <Link to="/input">Input</Link>
         </li>
       </ul>
     </div>

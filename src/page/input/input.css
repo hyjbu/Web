@@ -1,0 +1,44 @@
+.input_container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px;
+  gap: 30px; 
+
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field_label {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+input[type="gmail"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.1);
+  accent-color: #007bff;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: whitesmoke;
+  font-size: 15px;
+}
