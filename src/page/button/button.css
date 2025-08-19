@@ -46,6 +46,7 @@
 .secondary {
   color: black;
   cursor: pointer;
+  border: 1px solid black
 }
 
 .secactive {
@@ -83,13 +84,16 @@
 
 .pridisable {
   cursor: default;
-  background-color: #0073ea;
+  background-color: none;
+  
 }
 .secdisable {
   cursor: default;
-  background-color: white;
+  background-color: none;
+  color: rgb(121, 121, 121)
 }
 .terdisable {
   cursor: default;
-  background-color: inherit;
+  background-color: transparent;
+  color: rgb(206, 206, 206)
 }
