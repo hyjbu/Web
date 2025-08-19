@@ -3,8 +3,13 @@
   box-sizing: border-box;
 }
 
+.poscontainer {
+  height: 2000px;
+  overflow: auto;
+}
+
 .position_container {
-  height: 200vh;
+  height: 400vh;
   padding: 20px;
   background-color: #222;
 }
